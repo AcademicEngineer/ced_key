@@ -1,6 +1,9 @@
 # CED_KEY
 cedの電子錠化
 
+## 開発規則
+* ブランチ名は"frontend" or "backend" or "device", ある程度出来たらmainにマージ.
+
 ## ディレクトリ構造
 ```
 .
