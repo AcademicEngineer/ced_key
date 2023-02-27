@@ -16,11 +16,7 @@ class ServoLock():
         self.pi.hardware_PWM(self.pwm_pin1, self.freq, cnv_dutycycle)
 
     def open_key(self):
-        self._servo_angle(0)
-        time.sleep(1)
         self._servo_angle(90)
 
     def close_key(self):
-        self._servo_angle(90)
-        time.sleep(1)
         self._servo_angle(0)
