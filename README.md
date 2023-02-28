@@ -16,5 +16,15 @@ cedの電子錠化
 +- device  /* Raspberry Pi */
 ```
 
+## デバイス側の設定
+GPIOを使用する時はプログラム実行前にデーモンを起動する必要あり
+```
+$ sudo pigpiod
+```
+もしくは，起動時に読み込む `/etc/rc.local` に以下を記述
+```
+pigpiod
+```
+
 ## 参考記事
 [スマートドアロックを自作しました](https://ehbtj.com/electronics/diy-smart-lock/)

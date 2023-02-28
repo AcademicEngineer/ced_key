@@ -1,0 +1,4 @@
+ipget==0.0.3
+fastapi==0.92.0
+pigpio==1.44
+uvicorn==0.20.0
