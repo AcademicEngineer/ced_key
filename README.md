@@ -24,5 +24,5 @@ cedの電子錠化
 - [x] fail2banの導入 (デーモン化)
 - [ ] solのみ閲覧制限
 - [ ] raspberrypiのパスワード変更
-- [ ] firewall(ufw)の導入 (15022, 8000(http)以外deny)
+- [x] firewall(ufw)の導入 (15022, 8000(http)以外deny)
 - [ ] ipの固定
