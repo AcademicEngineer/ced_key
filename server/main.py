@@ -28,14 +28,16 @@ def check_update():
     current_data = get_sheet_data(gc)
     if len(current_data) > len(data):
         diff = [d for d in current_data if d not in data]
+        pprint.pprint(diff)
         send_command_each(diff)
         data = current_data
 
 
 # 各電子錠にリクエスト
 def request_key(place, operation_type):
-    endpoint = f"{place}:8000/{operation_type}"
+    endpoint = f"http://{place}:8000/{operation_type}"
     try:
+        print(endpoint)
         requests.post(endpoint)
     except Exception as e:
         print(e)
