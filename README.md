@@ -20,7 +20,7 @@ cedの電子錠化
 [スマートドアロックを自作しました](https://ehbtj.com/electronics/diy-smart-lock/)
 
 ## セキュリティ設定
-- [ ] sshのポート番号を22 -> 15022に変更
+- [x] sshのポート番号を22 -> 15022に変更
 - [ ] fail2banの導入 (デーモン化)
 - [ ] solのみ閲覧制限
 - [ ] raspberrypiのパスワード変更
