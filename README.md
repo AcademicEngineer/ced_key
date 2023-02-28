@@ -28,6 +28,7 @@ cedの電子錠化
   "sheetName": "CED電子錠（島崎個人Googleアカウントで作成）（回答）",
   "calendarId": "{カレンダーID}"
 }
+```
 
 
 ## デバイス側の設定
