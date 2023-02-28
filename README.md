@@ -21,7 +21,7 @@ cedの電子錠化
 
 ## セキュリティ設定
 - [x] sshのポート番号を22 -> 15022に変更
-- [ ] fail2banの導入 (デーモン化)
+- [x] fail2banの導入 (デーモン化)
 - [ ] solのみ閲覧制限
 - [ ] raspberrypiのパスワード変更
 - [ ] firewall(ufw)の導入 (15022, 8000(http)以外deny)
